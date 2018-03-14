@@ -1,0 +1,1 @@
+This folder needs to be created in order to count the number of groundings

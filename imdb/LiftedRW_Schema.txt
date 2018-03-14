@@ -1,0 +1,8 @@
+gender(person,gender)|NoBF
+genre(person,enre)
+isa(person,designation)|NoBF
+movie(movie,person)
+sameGender(gender,gender)|NoTwin
+sameGenre(enre,enre)|NoTwin
+sameMovie(movie,movie)|NoTwin
+samePerson(person,person)|NoTwin
