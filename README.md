@@ -2,12 +2,10 @@
 code for "Relational Restricted Boltzmann Machines- A Probabilistic Logic Learning Approach"
 
 1.	In order to execute this code, the following input files are required:
-  ⋅⋅⋅a.	DataSetName/LiftedRW_Schema.txt:
+  &nbsp; a.	DataSetName/LiftedRW_Schema.txt:
        This file contains the schema that is required to create the lifted random walks for the model. Flags like ‘NoBF’, ‘NoTwin’ etc.          required in the above file can be set by referring to [1].
-  ⋅⋅⋅b.	DataSetName/5Folds/FoldNumber/Training/TrainingPosExample.db and DataSetName/5Folds/FoldNumber/Test/TestPosExample.db: these files 
-      should contain the training/test positive examples.
-  ⋅⋅⋅c.	Similarly, DataSetName/5Folds/FoldNumber/Training/TrainingNegExample.db and DataSetName/5Folds/FoldNumber/Test/TestNegExample.db 
-      should contain training and test negative examples respectively.
+  &nbsp; b.	DataSetName/5Folds/FoldNumber/Training/TrainingPosExample.db and DataSetName/5Folds/FoldNumber/Test/TestPosExample.db: these files should contain the training/test positive examples.
+ &nbsp; c.	Similarly, DataSetName/5Folds/FoldNumber/Training/TrainingNegExample.db and DataSetName/5Folds/FoldNumber/Test/TestNegExample.db should contain training and test negative examples respectively.
   ⋅⋅⋅d.	DataSetName/5Folds/FoldNumber/Training/TrainingFacts.db should contain all the facts, including the inverted facts (one starting 
       with _ ) in it. Likewise, for TestFacts.db.
   ⋅⋅⋅e.	You should also create an empty folder named “graphs” (at the same level as DataSetName Folder) which will be used (internally) to 
