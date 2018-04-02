@@ -15,7 +15,7 @@ code for "Relational Restricted Boltzmann Machines- A Probabilistic Logic Learni
   *	Kindly create the above folders and files with the same nested structure as explained above.
   *	The program will internally create rest of the files, RandomWalks.txt, RWRPredicates.txt, schema.db, countVecs.txt, DataSet.csv. 
 2.	kindly set all the parameters of the model in line 13-24 of RRBM-Main.py
-3.	Now you are ready to execute the main file – RRBM-Main.py. It does not require command line arguments as they have been set in step B.
+3.	Now you are ready to execute the main file – RRBM-Main.py. It does not require command line arguments as they have been set in step 2.
 
 Disclaimer: This code was modified after the acceptance of ILP paper [2]. Hence, the results produced by this code might vary slightly from the one presented in the published paper.
 
