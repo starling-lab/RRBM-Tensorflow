@@ -2,7 +2,7 @@
 """
 Created on Tue Dec 12 20:22:52 2017
 
-@author: nxk176630
+@author: Navdeep Kaur
 """
 from call_java_files import obtain_lifted_random_walks, create_schema_file_for_counting, change_random_walks_format
 from call_java_files import sample_random_walks, obtain_counts_of_random_walks, generated_normalized_data, read_input_data
@@ -10,8 +10,8 @@ import tensorflow as tf
 import numpy as np
 import subprocess
 
-RWSchema_Path           = r"C:/Users/nxk176630/Desktop/RRBM-tensorflow/imdb/LiftedRW_Schema.txt"
-RW_Sample_Path          = r"C:/Users/nxk176630/Desktop/RRBM-tensorflow/imdb/5Folds/Fold1/"
+RWSchema_Path           = r"C:/Users/navdeep/Desktop/RRBM-tensorflow/imdb/LiftedRW_Schema.txt"
+RW_Sample_Path          = r"C:/Users/navdeep/Desktop/RRBM-tensorflow/imdb/5Folds/Fold1/"
 startentity             = "person"
 endentity               = "person"
 targetpredicate         = "workedUnder"
