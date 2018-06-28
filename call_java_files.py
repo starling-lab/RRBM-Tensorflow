@@ -162,7 +162,7 @@ def normalized(training_path, MaxValue):
             fact = line.split(",")
             mylen = len(fact)
             for f in fact:
-                if count is mylen-1:
+                if (count ==(mylen-1)):
                     mynewline = mynewline+fact[-1]
                     count = 0
                 else:
