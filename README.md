@@ -17,7 +17,7 @@ code for "Relational Restricted Boltzmann Machines- A Probabilistic Logic Learni
 2.	kindly set all the parameters of the model in line 13-24 of RRBM-Main.py
 3.	Now you are ready to execute the main file – RRBM-Main.py. It does not require command line arguments as they have been set in step 2.
 
-Disclaimer: This code was modified after the acceptance of ILP paper [2]. Hence, the results produced by this code might vary slightly from the one presented in the published paper.
+Disclaimer: This code was modified after the acceptance of ILP paper [2]. This code might need different hyper-parameter tuning for each dataset than the one presented in [1]. The optimal value of hyperparameters for each dataset will be updated soon. Hence, the results produced by this code might vary slightly from the one presented in the published paper.
 
 References:
 1.	Ni Lao and William W. Cohen (2010), “Relational Retrieval Using a Combination of Path-Constrained Random Walks”, ECML.
